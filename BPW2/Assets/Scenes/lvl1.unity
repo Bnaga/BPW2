@@ -951,12 +951,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1179054555}
-  targetOffset: {x: 0, y: 1.2, z: 3}
+  targetOffset: {x: 0, y: 1.2, z: 0}
   offset: {x: 0, y: 0, z: 0}
   useOffsetValues: 0
   rotateSpeed: 5
   pivot: {fileID: 1801951662}
   lockMode: 0
+  maxViewAngle: 65
+  minViewAngle: -80
+  invertY: 0
 --- !u!1 &2060204920
 GameObject:
   m_ObjectHideFlags: 0
