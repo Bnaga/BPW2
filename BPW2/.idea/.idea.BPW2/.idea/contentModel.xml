@@ -8,7 +8,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
+          <e p="CamTest.cs" t="Include" />
           <e p="Fader.cs" t="Include" />
+          <e p="GunScript.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="WaitSplash.cs" t="Include" />
@@ -19,6 +21,11 @@
               <e p="ReadmeEditor.cs" t="Include" />
             </e>
             <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Western Props" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Destructible.cs" t="Include" />
           </e>
         </e>
       </e>
