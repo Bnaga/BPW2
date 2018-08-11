@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f3d68b-3be0-4c7b-afa2-8d02b9785042" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BPW2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BPW2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BPW2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BPW2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Hover.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Normal.png.meta" afterDir="false" />
@@ -241,9 +238,8 @@
       <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_ShowTexture_On.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_ShowTexture_On.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64_Light.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/lvl1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/lvl1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GunScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -339,8 +335,8 @@
       <file leaf-file-name="BulletScript.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="525">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <marker date="1534016822066" expanded="false" signature="6:78" ph="..." />
                 <marker date="1534016822066" expanded="true" signature="121:899" ph="{...}" />
@@ -475,12 +471,12 @@
       <workItem from="1533930193739" duration="975000" />
       <workItem from="1533931513701" duration="15000" />
       <workItem from="1533933296637" duration="2243000" />
-      <workItem from="1533993430705" duration="18483000" />
+      <workItem from="1533993430705" duration="19112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41859000" />
+    <option name="totallyTimeSpent" value="42488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +489,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -824,8 +819,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="525">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <marker date="1534016822066" expanded="false" signature="6:78" ph="..." />
             <marker date="1534016822066" expanded="true" signature="121:899" ph="{...}" />
