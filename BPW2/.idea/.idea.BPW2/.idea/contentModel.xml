@@ -136,6 +136,7 @@
           <e p="CamTest.cs" t="Include" />
           <e p="Damageable.cs" t="Include" />
           <e p="Fader.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
           <e p="GunScript.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />

@@ -12,7 +12,7 @@ public class FollowDecision : Decision {
 
     bool FollowDecide(StateManager stateManager)
     {
-        Debug.Log(Vector3.Distance(stateManager.player.transform.position, stateManager.transform.position));
+        //Debug.Log(Vector3.Distance(stateManager.player.transform.position, stateManager.transform.position));
         if (Vector3.Distance(stateManager.player.transform.position, stateManager.transform.position) <= 5)
         {
             return true;

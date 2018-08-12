@@ -20,4 +20,9 @@ public class Damageable : MonoBehaviour
 	{
 		Destroy(gameObject);
 	}
+
+	public void SpawnCrystals()
+	{
+		
+	}
 }
