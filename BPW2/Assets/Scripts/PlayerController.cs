@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
 
 	private Vector3 moveDirection;
 
+	private int jumpCount = 2;
+
 	public float gravityScale;
 	// Use this for initialization
 	void Start ()
@@ -39,14 +41,15 @@ public class PlayerController : MonoBehaviour
 		moveDirection = moveDirection.normalized * moveSpeed;
 		moveDirection.y = yStore;
 		
-		if (controller.isGrounded)
+		if (jumpCount > 0)
 		{
 			//moveDirection = new Vector3(Input.GetAxis("Horizontal")*moveSpeed,0f,Input.GetAxis("Vertical")*moveSpeed);
-			moveDirection.y = 0f;
+			//moveDirection.y = 0f;
 			
-			if (Input.GetButton("Jump"))
+			if (Input.GetButtonDown("Jump"))
 			{
 				moveDirection.y = jumpForce;
+				jumpCount--;
 			}
 
 			
@@ -55,6 +58,11 @@ public class PlayerController : MonoBehaviour
 		if (!controller.isGrounded)
 		{
 			moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale * Time.deltaTime);
+		}
+
+		if (controller.isGrounded)
+		{
+			jumpCount = 2;
 		}
 
 		controller.Move(moveDirection * Time.deltaTime);

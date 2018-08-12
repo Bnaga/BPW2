@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Damageable
   - Target
+  - Environment
   layers:
   - Default
   - TransparentFX

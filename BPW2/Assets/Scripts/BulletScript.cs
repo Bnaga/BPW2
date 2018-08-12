@@ -27,6 +27,8 @@ public class BulletScript : MonoBehaviour
 		{
 			Kill();
 		}
+		
+		
 	}
 
 	private void OnCollisionEnter(Collision other)
@@ -35,8 +37,15 @@ public class BulletScript : MonoBehaviour
 		{
 			target = other.gameObject.GetComponent<Damageable>();
 			target.TakeDamage(damage);
+			Kill();
+		}
+		
+		if (other.collider.CompareTag("Environment"))
+		{;
+			Kill();
 		}
 		//Kill();
+		
 	}
 
 	void Kill()
