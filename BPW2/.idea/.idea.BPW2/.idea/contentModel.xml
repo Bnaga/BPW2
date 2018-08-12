@@ -134,10 +134,12 @@
           <e p="BulletScript.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
           <e p="CamTest.cs" t="Include" />
+          <e p="CrystalScript.cs" t="Include" />
           <e p="Damageable.cs" t="Include" />
           <e p="Fader.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="GunScript.cs" t="Include" />
+          <e p="MainMenu.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="Test.cs" t="Include" />

@@ -9,7 +9,6 @@ public class GameController : MonoBehaviour
 	public Text scoreText;
 	private int points = 0;
 	
-	
 	#region Singleton
 	public static GameController instance;
 
@@ -33,6 +32,11 @@ public class GameController : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () 
+	{
+		scoreText.text = "Points: " + points;
+	}
+
+	public void UpdatePoints()
 	{
 		scoreText.text = "Points: " + points;
 	}

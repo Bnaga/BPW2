@@ -7,6 +7,8 @@ TagManager:
   - Damageable
   - Target
   - Environment
+  - Crystal
+  - Bullet
   layers:
   - Default
   - TransparentFX
