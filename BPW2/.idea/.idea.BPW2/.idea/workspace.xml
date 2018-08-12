@@ -3,33 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="15f3d68b-3be0-4c7b-afa2-8d02b9785042" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BPW2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BPW2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material 3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material 3.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/lvl1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/lvl1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BPW2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BPW2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet 2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/lvl2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/lvl2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CamTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CamTest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CrystalScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CrystalScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Damageable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Damageable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/CrystalScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/CrystalScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PauseMenu.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FollowDecision.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FollowDecision.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/StateMachine/Scripts/FollowDecision.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -93,6 +72,67 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PauseMenu.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseMenu.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <marker date="1534116598111" expanded="true" signature="6:113" ph="..." />
+                <marker date="1534116598111" expanded="true" signature="154:696" ph="{...}" />
+                <marker date="1534116598111" expanded="true" signature="263:269" ph="{...}" />
+                <marker date="1534116598111" expanded="true" signature="323:585" ph="{...}" />
+                <marker date="1534116598111" expanded="true" signature="341:434" ph="{...}" />
+                <marker date="1534116598111" expanded="true" signature="441:510" ph="{...}" />
+                <marker date="1534116598111" expanded="true" signature="549:582" ph="{...}" />
+                <marker date="1534116598111" expanded="true" signature="608:634" ph="{...}" />
+                <marker date="1534116598111" expanded="true" signature="659:694" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrystalScript.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CrystalScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+              <folding>
+                <marker date="1534116789799" expanded="false" signature="6:78" ph="..." />
+                <marker date="1534116789799" expanded="true" signature="123:955" ph="{...}" />
+                <marker date="1534116789799" expanded="true" signature="261:388" ph="{...}" />
+                <marker date="1534116789799" expanded="true" signature="443:710" ph="{...}" />
+                <marker date="1534116789799" expanded="true" signature="652:704" ph="{...}" />
+                <marker date="1534116789799" expanded="true" signature="759:910" ph="{...}" />
+                <marker date="1534116789799" expanded="true" signature="805:906" ph="{...}" />
+                <marker date="1534116789799" expanded="true" signature="924:953" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding>
+                <marker date="1534117658095" expanded="false" signature="6:78" ph="..." />
+                <marker date="1534117658095" expanded="true" signature="125:2391" ph="{...}" />
+                <marker date="1534117658095" expanded="true" signature="512:806" ph="{...}" />
+                <marker date="1534117658095" expanded="true" signature="539:597" ph="{...}" />
+                <marker date="1534117658095" expanded="true" signature="864:2389" ph="{...}" />
+                <marker date="1534117658095" expanded="true" signature="894:906" ph="{...}" />
+                <marker date="1534117658095" expanded="true" signature="1189:1262" ph="{...}" />
+                <marker date="1534117658095" expanded="true" signature="1269:1344" ph="{...}" />
+                <marker date="1534117658095" expanded="true" signature="1471:1594" ph="{...}" />
+                <marker date="1534117658095" expanded="true" signature="1694:1831" ph="{...}" />
+                <marker date="1534117658095" expanded="true" signature="2166:2279" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -101,6 +141,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/StateMachine/Scripts/WanderAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StateMachine/Scripts/FollowDecision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CrystalScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StateMachine/Scripts/ActionScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StateMachine/Scripts/Decision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StateMachine/Scripts/FollowAction.cs" root0="FORCE_HIGHLIGHTING" />
@@ -129,6 +172,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Damageable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/CrystalScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraController.cs" />
       </list>
     </option>
   </component>
@@ -141,7 +187,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="435" />
     <option name="y" value="93" />
     <option name="width" value="1440" />
@@ -168,6 +214,12 @@
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="BPW2" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="BPW2" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
@@ -221,12 +273,12 @@
       <workItem from="1534088767425" duration="2465000" />
       <workItem from="1534094908150" duration="1961000" />
       <workItem from="1534096948815" duration="2319000" />
-      <workItem from="1534099385082" duration="9765000" />
+      <workItem from="1534099385082" duration="11592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62678000" />
+    <option name="totallyTimeSpent" value="64505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -238,7 +290,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -249,12 +301,12 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49346405" visible="true" weight="0.2889126" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49346405" visible="true" weight="0.2889126" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50653595" side_tool="true" visible="true" weight="0.2889126" />
+      <window_info active="true" id="Favorites" order="2" sideWeight="0.50653595" side_tool="true" visible="true" weight="0.2889126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -274,27 +326,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="73" column="74" selection-start-line="73" selection-start-column="74" selection-end-line="73" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GunScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -654,6 +685,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CrystalScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <marker date="1534116789799" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534116789799" expanded="true" signature="123:955" ph="{...}" />
+            <marker date="1534116789799" expanded="true" signature="261:388" ph="{...}" />
+            <marker date="1534116789799" expanded="true" signature="443:710" ph="{...}" />
+            <marker date="1534116789799" expanded="true" signature="652:704" ph="{...}" />
+            <marker date="1534116789799" expanded="true" signature="759:910" ph="{...}" />
+            <marker date="1534116789799" expanded="true" signature="805:906" ph="{...}" />
+            <marker date="1534116789799" expanded="true" signature="924:953" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <marker date="1534116598111" expanded="true" signature="6:113" ph="..." />
+            <marker date="1534116598111" expanded="true" signature="154:696" ph="{...}" />
+            <marker date="1534116598111" expanded="true" signature="263:269" ph="{...}" />
+            <marker date="1534116598111" expanded="true" signature="323:585" ph="{...}" />
+            <marker date="1534116598111" expanded="true" signature="341:434" ph="{...}" />
+            <marker date="1534116598111" expanded="true" signature="441:510" ph="{...}" />
+            <marker date="1534116598111" expanded="true" signature="549:582" ph="{...}" />
+            <marker date="1534116598111" expanded="true" signature="608:634" ph="{...}" />
+            <marker date="1534116598111" expanded="true" signature="659:694" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <marker date="1534117658095" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534117658095" expanded="true" signature="125:2391" ph="{...}" />
+            <marker date="1534117658095" expanded="true" signature="512:806" ph="{...}" />
+            <marker date="1534117658095" expanded="true" signature="539:597" ph="{...}" />
+            <marker date="1534117658095" expanded="true" signature="864:2389" ph="{...}" />
+            <marker date="1534117658095" expanded="true" signature="894:906" ph="{...}" />
+            <marker date="1534117658095" expanded="true" signature="1189:1262" ph="{...}" />
+            <marker date="1534117658095" expanded="true" signature="1269:1344" ph="{...}" />
+            <marker date="1534117658095" expanded="true" signature="1471:1594" ph="{...}" />
+            <marker date="1534117658095" expanded="true" signature="1694:1831" ph="{...}" />
+            <marker date="1534117658095" expanded="true" signature="2166:2279" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

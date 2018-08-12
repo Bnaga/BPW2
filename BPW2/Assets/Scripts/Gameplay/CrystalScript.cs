@@ -18,6 +18,8 @@ public class CrystalScript : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
+		cntrl = GameObject.Find("GameController").GetComponent<GameController>();
+		player = GameObject.FindWithTag("Player");
 		if (Vector3.Distance(player.transform.position, gameObject.transform.position) <= 2)
 		{
 			cntrl.AddPoints(PointAmount);
