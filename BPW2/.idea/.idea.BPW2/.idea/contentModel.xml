@@ -145,7 +145,10 @@
         <e p="StateMachine" t="Include">
           <e p="Scripts" t="Include">
             <e p="ActionScript.cs" t="Include" />
+            <e p="BacktoWander.cs" t="Include" />
             <e p="Decision.cs" t="Include" />
+            <e p="FollowAction.cs" t="Include" />
+            <e p="FollowDecision.cs" t="Include" />
             <e p="State.cs" t="Include" />
             <e p="StateManager.cs" t="Include" />
             <e p="Transition.cs" t="Include" />

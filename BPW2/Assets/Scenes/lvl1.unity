@@ -7104,6 +7104,10 @@ Prefab:
       propertyPath: jumpForce
       value: 12.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1941547376064568, guid: d730447a0e2dc7c44aa214d50d4bb47d, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d730447a0e2dc7c44aa214d50d4bb47d, type: 2}
   m_IsPrefabParent: 0

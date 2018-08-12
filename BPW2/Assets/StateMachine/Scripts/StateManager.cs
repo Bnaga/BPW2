@@ -33,6 +33,7 @@ public class StateManager : MonoBehaviour {
         onDestination = true;
         //navMeshAgent.destination = Vector3.zero;
         //animator = this.gameObject.GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player");
 	}
 
     private void Start()
@@ -57,7 +58,7 @@ public class StateManager : MonoBehaviour {
         if (currentState != null)
         {
             Gizmos.color = currentState.sceneGizmoColor;
-            Gizmos.DrawWireSphere(transform.position, 0.1f);
+            Gizmos.DrawWireSphere(transform.position, 1f);
         }
 
     }

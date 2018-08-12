@@ -51,7 +51,7 @@ public class WanderAction : ActionScript {
             mojiDestination = RandomNavmeshLocation(stateManager.transform.position,rad, stateManager);
             stateManager.navMeshAgent.SetDestination(mojiDestination);
             stateManager.onDestination = false;
-            UnityEngine.Debug.Log(stateManager.navMeshAgent.destination);
+            //UnityEngine.Debug.Log(stateManager.navMeshAgent.destination);
         }
 
 
