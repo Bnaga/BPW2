@@ -142,6 +142,16 @@
           <e p="Test.cs" t="Include" />
           <e p="WaitSplash.cs" t="Include" />
         </e>
+        <e p="StateMachine" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="ActionScript.cs" t="Include" />
+            <e p="Decision.cs" t="Include" />
+            <e p="State.cs" t="Include" />
+            <e p="StateManager.cs" t="Include" />
+            <e p="Transition.cs" t="Include" />
+            <e p="WanderAction.cs" t="Include" />
+          </e>
+        </e>
         <e p="Tutorial_Info" t="Include">
           <e p="Scripts" t="Include">
             <e p="Editor" t="Include">
