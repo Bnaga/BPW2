@@ -2626,7 +2626,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4080512460979412, guid: 7f2c50bbb134bad4fa428263df172829, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7f2c50bbb134bad4fa428263df172829, type: 2}
@@ -2637,6 +2637,23 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 549773968}
   m_Script: {fileID: 11500000, guid: 4db390dff7d6a004db4b16482b604bdf, type: 3}
+--- !u!1 &550034024 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1291983346210502, guid: aa057608a39b83d45952fce5125c67df,
+    type: 2}
+  m_PrefabInternal: {fileID: 647139526}
+--- !u!114 &550034028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 550034024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d6bc9f227d1b53409fc56185ace3b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 985646582}
 --- !u!1001 &590038221
 Prefab:
   m_ObjectHideFlags: 0
@@ -3038,6 +3055,14 @@ Prefab:
       propertyPath: m_UiScaleMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1291983346210502, guid: aa057608a39b83d45952fce5125c67df, type: 2}
+      propertyPath: m_TagString
+      value: GameController
+      objectReference: {fileID: 0}
+    - target: {fileID: 1291983346210502, guid: aa057608a39b83d45952fce5125c67df, type: 2}
+      propertyPath: m_Name
+      value: GameController
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aa057608a39b83d45952fce5125c67df, type: 2}
   m_IsPrefabParent: 0
@@ -3217,47 +3242,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4827379077898706, guid: aad63e0c400693a45b613cbee3a37cd4,
     type: 2}
   m_PrefabInternal: {fileID: 728311414}
---- !u!1 &728912870
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 728912872}
-  - component: {fileID: 728912871}
-  m_Layer: 0
-  m_Name: GameController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &728912871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728912870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d6bc9f227d1b53409fc56185ace3b51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 985646582}
---- !u!4 &728912872
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728912870}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.200005, y: 1.95, z: -54.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &754905057
 GameObject:
   m_ObjectHideFlags: 0
@@ -6354,7 +6338,7 @@ GameObject:
   - component: {fileID: 985646582}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Text
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

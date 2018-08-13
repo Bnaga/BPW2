@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,8 +26,9 @@ public class GameController : MonoBehaviour
 	#endregion
 	
 	// Use this for initialization
-	void Start () 
+	void Start ()
 	{
+		scoreText = FindObjectOfType<Text>();
 		points = 0;
 	}
 	

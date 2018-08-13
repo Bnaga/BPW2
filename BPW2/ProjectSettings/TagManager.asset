@@ -9,6 +9,8 @@ TagManager:
   - Environment
   - Crystal
   - Bullet
+  - Gate
+  - Text
   layers:
   - Default
   - TransparentFX
