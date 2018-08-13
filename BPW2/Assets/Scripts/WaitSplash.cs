@@ -8,7 +8,9 @@ public class WaitSplash : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+	    Time.timeScale = 1;
         StartCoroutine("WaitandBleed");
+	    Destroy(GameObject.Find("GameController"));
 	}
 	
 	// Update is called once per frame
