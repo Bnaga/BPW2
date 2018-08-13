@@ -132,6 +132,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Fader.cs" t="Include" />
+          <e p="GameOverScript.cs" t="Include" />
           <e p="Gameplay" t="Include">
             <e p="BulletScript.cs" t="Include" />
             <e p="CameraController.cs" t="Include" />
@@ -141,7 +142,6 @@
             <e p="GunScript.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
           </e>
-          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="Portal_script.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="UI" t="Include">

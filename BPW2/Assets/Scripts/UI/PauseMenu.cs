@@ -20,11 +20,13 @@ public class PauseMenu : MonoBehaviour {
 			pauseMenuCanvas.SetActive(true);
 			Time.timeScale = 0;
 			Cursor.visible = true;
+			Cursor.lockState = CursorLockMode.None;
 		}
 		else
 		{
 			pauseMenuCanvas.SetActive(false);
 			Time.timeScale = 1f;
+			Cursor.lockState = CursorLockMode.Locked;
 		}
 		if(Input.GetKeyDown(KeyCode.Escape))
 		{

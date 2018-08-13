@@ -16,6 +16,14 @@ public class GunScript : MonoBehaviour
 	public Vector3 targetPos;
 	public float bulletSpeed = 10;
 	public Transform secretTarget;
+	public PauseMenu pausemenu;
+	public AudioClip shotClip;
+	private AudioSource shotsrc;
+	
+	void Awake()
+	{
+		shotsrc = GetComponent<AudioSource>();
+	}
 	
 	// Use this for initialization
 	void Start () {
@@ -29,6 +37,7 @@ public class GunScript : MonoBehaviour
 		if (Input.GetButtonDown("Fire1"))
 		{
 			//Shoot();
+			shotsrc.PlayOneShot(shotClip, 1.0f);
 			RealShoot();
 			
 		}
